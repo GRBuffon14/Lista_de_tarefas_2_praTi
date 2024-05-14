@@ -16,7 +16,8 @@ let diasPerdidos;
 dias *= 365;
 cigarros = cigarros * 10 / 60 / 24;
 diasPerdidos = Math.floor(dias * cigarros);
-console.log(`\nVocê já perdeu ${diasPerdidos} dias de vida!
-Pare de fumar cigarro!!!`);
+
 
 //Saída
+console.log(`\nVocê já perdeu ${diasPerdidos} dias de vida!
+Pare de fumar cigarro!!!`);
