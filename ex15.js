@@ -16,11 +16,10 @@ for(let i = 0; i < 10; i++){
   vetorNumero.push(numero);
 }
 
+//Saída
 console.log("\n----- Os número pares e suas posições -----\n");
 for(let [key,value] of vetorNumero.entries()){
   if(value % 2 == 0){
     console.log('Número ' + value + ' na posição ' + key);
   }
 }
-
-//Saída
